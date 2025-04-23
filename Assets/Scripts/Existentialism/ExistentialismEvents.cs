@@ -241,7 +241,7 @@ public class ExistentialismEvents : MonoBehaviour
             { 7, new DialogueLine { Speaker = "코미", Text = "샤르트르는 인간을 이렇게 표현합니다:" } },
             { 8, new DialogueLine { Speaker = "코미", Text = "“원하지도 않았고, 준비도 되지 않은 상태에서 갑자기 존재하게 된 존재.”" } },
             { 9, new DialogueLine { Speaker = "코미", Text = "이처럼 갑작스럽고 의도되지 않은 탄생," } },
-            { 10, new DialogueLine { Speaker = "코미", Text = "그리고 그로 인한 혼란과 불안이" } },
+            { 10, new DialogueLine { Speaker = "코미", Text = "그리고 이로 인한 혼란과 불안이" } },
             { 11, new DialogueLine { Speaker = "코미", Text = "바로 ‘세상에 던져졌다’는 표현의 의미입니다." } },
             { 12, new DialogueLine { Speaker = "코미", Text = "그래서 벨라는 말합니다:" } },
             { 13, new DialogueLine { Speaker = "코미", Text = "\"내 존재가 의미 있었으면 좋겠어.\"" } },
