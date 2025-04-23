@@ -251,7 +251,7 @@ public class ExistentialismEvents : MonoBehaviour
             { 17, new DialogueLine { Speaker = "코미", Text = "간단히 말해 “상황에 맞춰 즉석에서 결정을 내린다”,\n 즉 ‘선택’을 한다는 뜻입니다." } },
             { 18, new DialogueLine { Speaker = "코미", Text = "그 선택에는 반드시 책임이 따른다고 말합니다." } },
             { 19, new DialogueLine { Speaker = "코미", Text = "야식을 먹으면 살이 찌고," } },
-            { 20, new DialogueLine { Speaker = "코미", Text = "밤새면 다음 날 힘든 것처럼," } },
+            { 20, new DialogueLine { Speaker = "코미", Text = "밤을 새면 다음 날 힘든 것처럼," } },
             { 21, new DialogueLine { Speaker = "코미", Text = "우리의 사소한 선택에도 책임이 따릅니다." } },
             { 22, new DialogueLine { Speaker = "코미", Text = "즉, 인간은\n존재 → 선택 → 책임\n이라는 구조 속에서 살아갑니다." } },
             { 23, new DialogueLine { Speaker = "코미", Text = "이제 다시 정리하면," } }
