@@ -42,8 +42,6 @@ public class Scene02Event : MonoBehaviour
         StartCoroutine(EventStarter());
     }
 
-
-
     void Update()
     {
         textLength = TextCreator.charCount;
