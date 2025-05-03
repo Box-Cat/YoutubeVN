@@ -34,23 +34,24 @@ public class Tentacle : MonoBehaviour
 
     void Update()
     {
+
+        if (targetDir == null) return;
+
+        // 헤드 따라가게
         segmentPoses[0] = targetDir.position;
         segmentPoses[0].z = 0f;
 
         for (int i = 1; i < segmentPoses.Length; i++)
         {
-            // 방향을 현재 촉수 기준으로 계산
             Vector3 direction = (segmentPoses[i - 1] - segmentPoses[i]).normalized;
-
-            // 자연스럽게 따라오도록 target 계산
             Vector3 targetPos = segmentPoses[i - 1] + direction * targetDist;
 
-            // 부드럽게 따라오게 만듦
             segmentPoses[i] = Vector3.SmoothDamp(segmentPoses[i], targetPos, ref segmentV[i], smoothSpeed);
             segmentPoses[i].z = 0f;
         }
 
         lineRend.SetPositions(segmentPoses);
+
     }
 
 }
