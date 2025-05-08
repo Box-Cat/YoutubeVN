@@ -155,7 +155,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1935319919}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -251,7 +251,7 @@ RectTransform:
   - {fileID: 125327270}
   - {fileID: 1729932170}
   m_Father: {fileID: 1935319919}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -326,7 +326,7 @@ RectTransform:
   m_Children:
   - {fileID: 1378680414}
   m_Father: {fileID: 1935319919}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -919,7 +919,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1935319919}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 731708558}
   - component: {fileID: 731708557}
   m_Layer: 5
-  m_Name: NatiNormal
+  m_Name: NatiAndRits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 7ac979b88007ba84eba5aa7e7f3e9189, type: 3}
+  m_Texture: {fileID: 2800000, guid: fff4d36812150d34bb6dcdb00d8bc8b3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1872,7 +1872,7 @@ MonoBehaviour:
   fadeIn: {fileID: 6487977}
   fadeOut: {fileID: 392853085}
   tentalce1: {fileID: 559652593}
-  tentalce2: {fileID: 0}
+  tentalce2: {fileID: 670632677}
   bgRawImage: {fileID: 364769574}
   backgroundTextures:
   - {fileID: 2800000, guid: caf45a462af49e940acd89f2890aaa6b, type: 3}
@@ -1882,79 +1882,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: fbd067f229d02dc44aeab920881f1591, type: 3}
   - {fileID: 2800000, guid: 232bace6e6095ac4cb53984c2682c1c5, type: 3}
   - {fileID: 2800000, guid: 46af888005a16bb49859c1d0f4aa1089, type: 3}
---- !u!1 &1325234244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1325234245}
-  - component: {fileID: 1325234247}
-  - component: {fileID: 1325234246}
-  m_Layer: 5
-  m_Name: SherumNormal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1325234245
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325234244}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1935319919}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1339, y: 400}
-  m_SizeDelta: {x: 800, y: 800}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1325234246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325234244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 72dd6e43901f4e347847804d6f75bce6, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &1325234247
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325234244}
-  m_CullTransparentMesh: 1
 --- !u!1 &1378680413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,7 +2428,6 @@ RectTransform:
   - {fileID: 364769573}
   - {fileID: 731708555}
   - {fileID: 1983919668}
-  - {fileID: 1325234245}
   - {fileID: 25566475}
   - {fileID: 57398985}
   - {fileID: 6487978}
@@ -2525,13 +2451,14 @@ GameObject:
   - component: {fileID: 1983919668}
   - component: {fileID: 1983919667}
   - component: {fileID: 1983919666}
+  - component: {fileID: 1983919669}
   m_Layer: 5
-  m_Name: RitsNormal
+  m_Name: RitsCrying
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1983919666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,7 +2479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: b08103045da5f7247969a505853d0861, type: 3}
+  m_Texture: {fileID: 2800000, guid: 40f168ba59eb7244abd3901703de739a, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2584,9 +2511,30 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -384.119, y: 466.31}
-  m_SizeDelta: {x: 718.24, y: 969.86}
+  m_AnchoredPosition: {x: 321.92, y: 349.82}
+  m_SizeDelta: {x: 601.391, y: 699.646}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1983919669
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983919665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b131a69681227c04d86c1f9559fc9353, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1985807433
 GameObject:
   m_ObjectHideFlags: 0

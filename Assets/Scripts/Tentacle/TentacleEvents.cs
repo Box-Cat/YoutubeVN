@@ -79,15 +79,17 @@ public class TentacleEvents : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
 
+        
 
         while (bgIndex < backgroundTextures.Count)
         {
             bgRawImage.texture = backgroundTextures[bgIndex];
-
+            charRits.SetActive(true);
             // 스페이스바 기다림
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
 
             bgIndex++;
+            charRits.SetActive(false);
         }
 
         eventPos = 999;
@@ -100,7 +102,7 @@ public class TentacleEvents : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         fadeIn.SetActive(false);
-        //charKomi.SetActive(true);
+        charNati.SetActive(true);
         textBox.SetActive(true);
 
         Dictionary<int, DialogueLine> dialogues = new Dictionary<int, DialogueLine>()
