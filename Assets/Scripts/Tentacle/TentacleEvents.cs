@@ -85,10 +85,15 @@ public class TentacleEvents : MonoBehaviour
         {
             bgRawImage.texture = backgroundTextures[bgIndex];
             charRits.SetActive(true);
-            // 스페이스바 기다림
+
+            // 스페이스바 누를 때까지 대기
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            // 키가 떼어질 때까지 대기
+            yield return new WaitUntil(() => !Input.GetKey(KeyCode.Space));
+
 
             bgIndex++;
+            Debug.Log(bgIndex);
             charRits.SetActive(false);
         }
 
@@ -109,7 +114,7 @@ public class TentacleEvents : MonoBehaviour
         {
             { 0, new DialogueLine { Speaker = "네티", Text = "그런 이유로 리츠를 산책시켜 드리고 있었어용~" } },
             { 1, new DialogueLine { Speaker = "리츠", Text = "이, 이건 산책이 아니잖아!" } },
-            { 2, new DialogueLine { Speaker = "네티", Text = "네티: 시원한 바깥바람을 쐬니까 산책 아닐까용?" } },
+            { 2, new DialogueLine { Speaker = "네티", Text = "시원한 바깥바람을 쐬니까 산책 아닐까용?" } },
         };
 
         NewTextCreator newTextCreator = SpeakText.GetComponent<NewTextCreator>();

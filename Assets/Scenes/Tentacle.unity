@@ -486,7 +486,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCF54\uBBF8"
+  m_text: "\uB9AC\uCE20"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6a41aba1cb987a4e9765310d0d550d2, type: 2}
   m_sharedMaterial: {fileID: -7150276664202977759, guid: b6a41aba1cb987a4e9765310d0d550d2, type: 2}
@@ -872,7 +872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: caf45a462af49e940acd89f2890aaa6b, type: 3}
+  m_Texture: {fileID: 2800000, guid: 34456993ade38f8448bde6ff9493f4c7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1730,7 +1730,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2fabcefa5bb177742b790a481a7dca79, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.15
   m_Pitch: 1
@@ -1875,6 +1875,7 @@ MonoBehaviour:
   tentalce2: {fileID: 670632677}
   bgRawImage: {fileID: 364769574}
   backgroundTextures:
+  - {fileID: 2800000, guid: 34456993ade38f8448bde6ff9493f4c7, type: 3}
   - {fileID: 2800000, guid: caf45a462af49e940acd89f2890aaa6b, type: 3}
   - {fileID: 2800000, guid: af271c7223472934abc2f9b4891f18a9, type: 3}
   - {fileID: 2800000, guid: 318f383d9a962a84eb22805e8a6a35d3, type: 3}
